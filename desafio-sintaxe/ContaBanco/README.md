@@ -1,18 +1,31 @@
-## Getting Started
+## Sintaxe - Desafio
+obs.: desafio copiado de https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
 
-## Folder Structure
+1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
+2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
 
-The workspace contains two folders by default, where:
+obs.: revise sobre regras de declaração de variáveis
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+| Atributo     | Tipo    | Exemplo       |
+| ------------ | ------- | ------------- |
+| Numero       | Inteiro | 1021          |
+| Agencia      | Texto   | 067-8         |
+| Nome Cliente | Texto   | MARIO ANDRADE |
+| Saldo        | Decimal | 237.48        |
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+obs.: revise sobre terminal, `main args` e a classe Scanner
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
 
-## Dependency Management
+- Programa: "Por favor, digite o número da Agência !"
+- Usuário: 1021 _(depois ENTER para o próximo campo)_
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+obs.: revise sobre concatenação e classe `String` com método `concat`
+
+4. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+
+_"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque"._
+
+Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
