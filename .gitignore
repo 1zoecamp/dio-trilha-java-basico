@@ -20,5 +20,12 @@
 /desafio-poo/.settings
 /desafio-poo/target
 
+# desafio-poo-banco
+/desafio-poo-banco/bin
+/desafio-poo-banco/.classpath
+/desafio-poo-banco/.project
+/desafio-poo-banco/.settings
+
+
 # desafio-sintaxe
 /desafio-sintaxe/ContaBanco/bin
