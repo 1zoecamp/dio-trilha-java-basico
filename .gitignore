@@ -1,3 +1,6 @@
+.classpath
+.project
+
 # desafio-condicionais
 /desafio-condicionais
 
@@ -25,6 +28,12 @@
 /desafio-poo-banco/.classpath
 /desafio-poo-banco/.project
 /desafio-poo-banco/.settings
+
+# desafio-poo-bootcamp
+/desafio-poo-bootcamp/bin
+/desafio-poo-bootcamp/.classpath
+/desafio-poo-bootcamp/.project
+/desafio-poo-bootcamp/.settings
 
 
 # desafio-sintaxe
